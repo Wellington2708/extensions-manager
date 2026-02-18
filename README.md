@@ -1,6 +1,11 @@
 # Versão Português
 
+[Clique aqui é Visualize o desenvolvimento do projeto no Vercel](https://extensions-manager-9akrwds9s-wellington2708s-projects.vercel.app/)
+
+
 # 🧩 extensions-manager | Frontend Mentor Challenge
+
+![Preview](public/preview.jpg)
 
 Este projeto é uma solução para um desafio do **[Frontend Mentor](https://www.frontendmentor.io/)**. O objetivo será construir um gerenciador de extensões funcional, aplicando conceitos modernos de desenvolvimento web para consolidar o aprendizado.
 
@@ -53,6 +58,8 @@ Developed by Wellington2708 as part of the React learning journey.
 
 # English Version
 
+[Click here to view the project deployment on Vercel](https://extensions-manager-9akrwds9s-wellington2708s-projects.vercel.app/)
+
 
 # 🧩 extensions-manager | Frontend Mentor Challenge
 
@@ -61,6 +68,8 @@ This project is a solution to a **[Frontend Mentor](https://www.frontendmentor.i
 ---
 
 ## 🎯 Challenge Objective
+
+![Preview](public/preview.jpg)
 
 The primary focus of this project is intensive practice and the transition from fundamental concepts to productivity tools. This repository reflects the application of **recent learnings** in:
 
