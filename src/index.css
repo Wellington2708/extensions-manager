@@ -6,6 +6,9 @@
 
 body {
     background-color: hsl(217, 61%, 90%);
+    width: 90%;
     height: 100vh;
     margin-left: auto;
+    margin-right: auto;
+
 }
