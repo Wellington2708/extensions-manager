@@ -1,11 +1,13 @@
-import styles from './Card.module.css'
+import styles from './Card.module.css';
+import logoDevLens from '../../assets/images/logo-devlens.svg';
+
 
 function Card() {
     return (
         <div className={styles.description_card}>
             <div className={styles.header_content}>
                 <div className={styles.logo_container}>
-                    <img src="src/assets/images/logo-devlens.svg" alt="logo devlens" />
+                    <img src={logoDevLens} alt="logo devlens" />
                 </div>
                 <div className={styles.elements_card}>
                     <h3>DevLens</h3>
