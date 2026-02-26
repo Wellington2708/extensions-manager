@@ -1,17 +1,15 @@
 import styles from './Card.module.css';
-import logoDevLens from '../../assets/images/logo-devlens.svg';
 
-
-function Card() {
+function Card({card}) {
     return (
         <div className={styles.description_card}>
             <div className={styles.header_content}>
                 <div className={styles.logo_container}>
-                    <img src={logoDevLens} alt="logo devlens" />
+                    <img src={card.logo} alt="logo devlens" />
                 </div>
                 <div className={styles.elements_card}>
-                    <h3>DevLens</h3>
-                    <p>Quickly inspect page layouts and visualize element boundaries.</p>
+                    <h3>{card.name}</h3>
+                    <p>{card.description}</p>
                 </div>
             </div>
             <div className={styles.container_btn}>
