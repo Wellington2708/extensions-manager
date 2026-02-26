@@ -1,6 +1,6 @@
 import styles from './Header.module.css';
-import logoSvg from '../../assets/images/logo.svg';
-import iconMoon from '../../assets/images/icon-moon.svg';
+import logoSvg from '/public/images/logo.svg';
+import iconMoon from '/public/images/icon-moon.svg';
 
 
 function Header(){

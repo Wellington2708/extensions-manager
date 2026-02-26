@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header'
 import Card from './components/Card/index';
+import datas from './datas/data.json'
 
 function App() {
 
@@ -17,7 +18,10 @@ function App() {
         </ul>
       </section>
       <main className='card_container'>
-        <Card />
+        {datas.map((item) => (
+          <Card key={item.name} card={item}/>
+
+        ))}
       </main>
 
 
